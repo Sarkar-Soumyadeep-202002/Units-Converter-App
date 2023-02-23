@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Assignment 1</string>
+    <string name="sign_in">Sign In</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="hint">Enter a Value</string>
+    <string name="image_spacer">Image Spacer</string>
+    <string name="enter_a_value">Enter a Value</string>
+    <string name="choose_one_of_the_following_options">Choose one of the following options</string>
+    <string name="button">Button</string>
+    <string name="option_1_convert_kg_to_lbs">Option 1 : Convert Kg to Lbs</string>
+    <string name="option_2_convert_meter_to_feet_and_inches">Option 2 : Convert meter to feet and inches</string>
+    <string name="option_3_convert_celcius_to_fahrenheit">Option 3 : Convert celcius to fahrenheit</string>
+    <string name="get_started">Get Started</string>
+    <string name="welcome_to_the_unit_converter">Welcome to the Unit Converter</string>
+    <string name="choose_the_type_of_unit_you_want_to_convert">Choose the type of unit you want to convert</string>
+    <string name="mass">Mass</string>
+    <string name="length">Length</string>
+    <string name="temperature">Temperature</string>
+    <string name="time">Time</string>
+    <string name="settings">Settings</string>
+    <string name="enter_a_value_2">Enter a value</string>
+    <string name="convert_meters_to_feet">Convert meters to feet</string>
+    <string name="convert_feet_to_meters">Convert feet to meters</string>
+    <string name="enter_a_value_3">Enter a value</string>
+    <string name="convert_kg_to_lbs">Convert Kg to Lbs</string>
+    <string name="convert_lbs_to_kg">Convert Lbs to Kg</string>
+    <string name="add_a_new_welcome_message">Add a new Welcome message</string>
+    <string name="done">Done</string>
+    <string name="enter_a_value_4">Enter a value</string>
+    <string name="convert_celcius_to_fahrenheit">Convert Celcius to Fahrenheit</string>
+    <string name="convert_celcius_to_kelvin">Convert Celcius to Kelvin</string>
+    <string name="convert_fahrenheit_to_celcius">Convert Fahrenheit to Celcius</string>
+    <string name="convert_minutes_to_seconds">Convert minutes to seconds</string>
+    <string name="convert_years_to_months">Convert years to months</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".Length_Calculate_Activity"
+android:background="@drawable/background_2">
+
+<androidx.appcompat.widget.AppCompatEditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/Temperature_value_input"
+    android:background="#50ffffff"
+    android:hint="@string/enter_a_value"
+    android:textColorHint="@color/white"
+    android:textColor="@color/white"
+    android:layout_margin="20dp"
+    android:padding="20dp"/>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="@string/convert_celcius_to_fahrenheit"
+    android:onClick="celcius_to_Fahrenheit"/>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="@string/convert_celcius_to_kelvin"
+    android:onClick="celcius_to_Kelvin"/>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="@string/convert_fahrenheit_to_celcius"
+    android:onClick="fahrenheit_to_celcius"/>
+
+</LinearLayout>

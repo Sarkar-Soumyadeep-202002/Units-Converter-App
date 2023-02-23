@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".Mass_Calculate_Activity">-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Length_Calculate_Activity"
+    android:background="@drawable/background_2">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Mass_value_input"
+        android:background="#50ffffff"
+        android:hint="@string/enter_a_value"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"
+        android:padding="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/convert_kg_to_lbs"
+        android:onClick="kg_to_Lbs"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/convert_lbs_to_kg"
+        android:onClick="lbs_to_Kg"/>
+
+</LinearLayout>
